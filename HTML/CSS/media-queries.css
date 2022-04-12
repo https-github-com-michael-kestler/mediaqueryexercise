@@ -210,32 +210,54 @@ body{
     .sub-section>p {
         /*padding-top: 1em;*/
     }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
     footer>p {
+        display: flex;
+        align-self: flex-start;
         position: absolute;
         bottom: 0;
         padding-bottom: 100px;
+        width: 50%;
     }
     #social-media-links{
         display: flex;
-        float: right;
-        flex-flow: row;
-        padding-right: 50px;
-        align-items: end;
+        align-self: flex-end;
+        /*float: right;*/
+        flex-direction: row;
+        flex-wrap: wrap;
+        /*padding-right: 50px;*/
+        /*align-items: end;*/
+        position: absolute;
+        bottom: 0;
+
+
+
 
     }
 
     #twitter {
         border-radius: 100%;
-        display: flex;
+        /*display: flex;*/
         width: 50px;
-        /*bottom: 0;*/
-        /*padding-bottom: 160px;*/
+        bottom: 0;
+        /*position: absolute;*/
+        padding-bottom: 100px;
+        /*display: inline-block;*/
+        /*align-self: flex-start;*/
         /*align-content: center;*/
     }
     #facebook{
         border-radius: 100%;
-        display: flex;
+        /*display: inline-block;*/
+        /*align-self: flex-end;*/
+        /*float: left;*/
         width: 28px;
+        bottom: 0;
+        /*position: relative;*/
+        padding-bottom: 100px;
         /*position: unset;*/
         /*bottom: 0;*/
         /*padding-bottom: 160px;*/
