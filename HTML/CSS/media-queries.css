@@ -113,28 +113,32 @@ body{
         float: left;
         margin: 0 auto;
         text-align: left;
-        padding-bottom: 15px;
+        /*padding-bottom: 15px;*/
         font-family: sans-serif;
         font-size: 42px;
         font-weight: bold;
         letter-spacing: .05em;
-
+        display: inline-block;
+        width: 59%;
 
     }
 
 
     nav {
-        margin-block: 5px;
-        width: 100%;
+        /*margin-block: 5px;*/
+        width: 39%;
+        display: inline-block;
+        margin: auto;
 
     }
 
     ul.nav-links {
-        float: right;
+        /*float: right;*/
         /*margin: 0 auto;*/
         /*padding-inline-start: 0;*/
         display: flex;
         flex-direction: row;
+        align-content: end;
         /*align-items: center;*/
 
 
@@ -145,20 +149,20 @@ body{
         display: flex;
         width: 100%;
         align-items: baseline;
-        margin-block: 5px;
+        /*margin-block: 5px;*/
         /*padding: 5px;*/
         /*background-color: lightgray;*/
-        padding-bottom: 20px;
-        margin-bottom: 10px;
+        /*padding-bottom: 20px;*/
+        /*margin-bottom: 10px;*/
         align-content: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
 
     }
 
     a {
         margin: 0 auto;
-        padding: 10px;
+        /*padding: 10px;*/
 
         /*padding-top: 15px;*/
 
@@ -167,29 +171,44 @@ body{
 
     .header-img > img {
         width: 100%;
+        margin-top: 30px;
 
 
     }
 
     .sub-section {
         font-style: italic;
+        min-height: 300px;
 
 
+    }
+    .main {
+        width: 57%;
+        /*display: inline-flex;*/
+        display: inline-block;
+        vertical-align: top;
+        padding-right: 5px;
     }
     .main>h2{
 
-        display: flex;
-        float: left;
-        width: 60%;
+        /*display: flex;*/
+        /*float: left;*/
+        /*width: 60%;*/
     }
     .main > p {
-        display: flex;
-        clear: left;
-        float: left;
-        width: 60%;
+        /*display: flex;*/
+        /*clear: left;*/
+        /*float: left;*/
+        /*width: 60%;*/
+    }
+    .sub-section{
+        width: 38%;
+        display: inline-block;
+        padding-left: 5px;
+        vertical-align: top;
     }
     .sub-section>p {
-        padding-top: 1em;
+        /*padding-top: 1em;*/
     }
     footer>p {
         position: absolute;
